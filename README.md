@@ -9,7 +9,7 @@ development-agent/
   SKILL.md
   agents/openai.yaml
   references/
-mobile-dev-workflow/
+mobile-feature-agent/
   SKILL.md
   agents/openai.yaml
   references/
@@ -24,7 +24,7 @@ templates/
 
 Agente geral de desenvolvimento para implementar, depurar, testar, refatorar e revisar projetos de software.
 
-### `mobile-dev-workflow`
+### `mobile-feature-agent`
 
 Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Ele não assume Jira, Figma, GitHub, branch `develop`, Arco, Koin, Compose ou qualquer padrão de empresa; detecta e segue as ferramentas e convenções do projeto atual.
 
@@ -34,7 +34,7 @@ Instale ou copie a pasta da skill desejada para o diretório de habilidades do C
 
 ```text
 Use $development-agent para corrigir este bug e validar a mudança.
-Use $mobile-dev-workflow para implementar este card mobile seguindo as ferramentas do projeto.
+Use $mobile-feature-agent para implementar este card mobile seguindo as ferramentas do projeto.
 ```
 
 Para comportamento local em um repositório, copie `templates/AGENTS.md` para a raiz do projeto alvo e personalize comandos específicos do projeto.

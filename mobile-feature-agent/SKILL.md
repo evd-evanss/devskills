@@ -1,11 +1,11 @@
 ---
-name: mobile-dev-workflow
+name: mobile-feature-agent
 description: Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Use quando Codex precisar conduzir uma tarefa mobile de ponta a ponta: entender item de trabalho em Jira, Linear, GitHub Issues, Azure Boards ou texto livre; analisar design opcional em Figma ou outra fonte; criar branch seguindo o padrão do projeto; implementar feature, bugfix ou refatoração; rodar testes e checks disponíveis; abrir PR/MR; e atualizar o rastreador quando a integração existir.
 ---
 
-# Mobile Dev Workflow
+# Mobile Feature Agent
 
-Use esta skill para conduzir trabalho mobile sem assumir ferramenta, empresa, design system ou padrão de branch específico.
+Use esta skill para conduzir features e tarefas mobile sem assumir ferramenta, empresa, design system ou padrão de branch específico.
 
 ## Princípios
 

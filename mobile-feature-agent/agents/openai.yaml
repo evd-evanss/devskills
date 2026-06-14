@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile Feature Agent"
+  short_description: "Fluxo genérico de desenvolvimento mobile"
+  default_prompt: "Use $mobile-feature-agent para conduzir uma tarefa mobile do planejamento ao PR usando as ferramentas disponíveis do projeto."

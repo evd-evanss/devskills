@@ -1,4 +1,0 @@
-interface:
-  display_name: "Fluxo Mobile"
-  short_description: "Fluxo genérico de desenvolvimento mobile"
-  default_prompt: "Use $mobile-dev-workflow para conduzir uma tarefa mobile do planejamento ao PR usando as ferramentas disponíveis do projeto."

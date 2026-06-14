@@ -1,6 +1,6 @@
 ---
 name: mobile-feature-agent
-description: Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Use quando Codex precisar conduzir uma tarefa mobile de ponta a ponta: entender item de trabalho em Jira, Linear, GitHub Issues, Azure Boards ou texto livre; analisar design opcional em Figma ou outra fonte; criar branch seguindo o padrão do projeto; implementar feature, bugfix ou refatoração; rodar testes e checks disponíveis; abrir PR/MR; e atualizar o rastreador quando a integração existir.
+description: "Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Use quando Codex precisar conduzir uma tarefa mobile de ponta a ponta: entender item de trabalho em Jira, Linear, GitHub Issues, Azure Boards ou texto livre; analisar design opcional em Figma ou outra fonte; criar branch seguindo o padrão do projeto; implementar feature, bugfix ou refatoração; rodar testes e checks disponíveis; abrir PR/MR; e atualizar o rastreador quando a integração existir."
 ---
 
 # Mobile Feature Agent
@@ -26,7 +26,6 @@ Leia apenas o arquivo necessário:
 - Para implementação mobile por stack: `references/mobile-implementation.md`.
 - Para testes, build e quality checks: `references/validation.md`.
 - Para design system e fontes de design: `references/design.md`.
-- Para analisar o que foi removido da skill original e por quê: `references/genericization-notes.md`.
 
 ## Fluxo Padrão
 

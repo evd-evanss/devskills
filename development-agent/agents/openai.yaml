@@ -1,0 +1,4 @@
+interface:
+  display_name: "Development Agent"
+  short_description: "Reusable software development agent"
+  default_prompt: "Use $development-agent to implement, debug, test, or review this software project end to end."

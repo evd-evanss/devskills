@@ -1,27 +1,27 @@
-# Refactor Workflow
+# Fluxo De Refatoração
 
-Use this workflow for cleanup, restructuring, naming, modularization, deduplication, and maintainability work.
+Use este fluxo para limpeza, reestruturação, nomes, modularização, deduplicação e trabalho de manutenção.
 
-## Steps
+## Passos
 
-1. Identify the behavior that must remain unchanged.
-2. Find tests or commands that protect that behavior.
-3. Make one coherent structural change at a time.
-4. Preserve public APIs unless the user explicitly wants a breaking change.
-5. Run tests before and after when feasible.
-6. Report the structural improvement and validation.
+1. Identificar o comportamento que deve permanecer inalterado.
+2. Encontrar testes ou comandos que protejam esse comportamento.
+3. Fazer uma mudança estrutural coerente por vez.
+4. Preservar APIs públicas, a menos que o usuário queira explicitamente uma quebra.
+5. Rodar testes antes e depois quando for viável.
+6. Relatar a melhoria estrutural e a validação.
 
-## Guardrails
+## Regras De Proteção
 
-- Do not combine refactors with unrelated behavior changes.
-- Do not introduce an abstraction only to reduce a few lines.
-- Prefer local simplification before cross-project architecture.
-- Keep names aligned with existing domain language.
-- If tests are absent, use focused smoke checks and explain the gap.
+- Não combinar refatorações com mudanças de comportamento não relacionadas.
+- Não introduzir uma abstração apenas para reduzir poucas linhas.
+- Preferir simplificação local antes de arquitetura entre projetos.
+- Manter nomes alinhados com a linguagem de domínio existente.
+- Se não houver testes, usar smoke checks focados e explicar a lacuna.
 
-## Good Refactor Targets
+## Bons Alvos De Refatoração
 
-- Repeated branching that already has one clear domain concept.
-- Long functions with separable parsing, validation, or rendering phases.
-- Duplicated setup across tests.
-- Confusing names that conflict with project terminology.
+- Ramificações repetidas que já apontam para um conceito claro de domínio.
+- Funções longas com fases separáveis de parsing, validação ou renderização.
+- Setup duplicado entre testes.
+- Nomes confusos que entram em conflito com a terminologia do projeto.

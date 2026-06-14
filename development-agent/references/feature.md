@@ -1,28 +1,28 @@
-# Feature Workflow
+# Fluxo De Funcionalidade
 
-Use this workflow for new behavior, product changes, UI flows, APIs, integrations, and data-model additions.
+Use este fluxo para novo comportamento, mudanças de produto, fluxos de UI, APIs, integrações e adições de modelo de dados.
 
-## Steps
+## Passos
 
-1. Identify the user-visible outcome and acceptance criteria.
-2. Find existing similar features and copy local conventions.
-3. Sketch the smallest implementation path across UI, domain, API, persistence, tests, and docs as applicable.
-4. Implement in thin vertical slices when the change crosses layers.
-5. Add validation for meaningful behavior and edge cases.
-6. Run focused checks, then broader checks if shared contracts changed.
-7. Summarize the feature, changed surface area, and validation.
+1. Identificar o resultado visível para o usuário e os critérios de aceite.
+2. Encontrar funcionalidades similares existentes e copiar convenções locais.
+3. Esboçar o menor caminho de implementação entre UI, domínio, API, persistência, testes e docs quando aplicável.
+4. Implementar em fatias verticais finas quando a mudança atravessar camadas.
+5. Adicionar validação para comportamento relevante e casos de borda.
+6. Rodar verificações focadas, depois verificações mais amplas se contratos compartilhados mudaram.
+7. Resumir a funcionalidade, superfície alterada e validação.
 
-## Design Defaults
+## Padroes De Design
 
-- Prefer existing components, services, helpers, and patterns.
-- Keep UI copy concrete and action-oriented.
-- Include loading, empty, error, and disabled states when the workflow naturally needs them.
-- Avoid broad schema, routing, or state-management changes for a narrow feature.
-- Leave extension points only when the near-term use case is real.
+- Preferir componentes, serviços, helpers e padrões existentes.
+- Manter textos de UI concretos e orientados a ação.
+- Incluir estados de carregamento, vazio, erro e desabilitado quando o fluxo naturalmente precisar deles.
+- Evitar mudanças amplas de schema, roteamento ou gerenciamento de estado para uma funcionalidade estreita.
+- Deixar pontos de extensão apenas quando o caso de uso de curto prazo for real.
 
-## Acceptance Criteria Checklist
+## Checklist De Aceite
 
-- The primary success path works.
-- Expected failure and empty states are handled.
-- Existing behavior remains compatible.
-- Tests or checks cover the highest-risk path.
+- O caminho principal de sucesso funciona.
+- Estados esperados de falha e vazio são tratados.
+- O comportamento existente permanece compatível.
+- Testes ou verificações cobrem o caminho de maior risco.

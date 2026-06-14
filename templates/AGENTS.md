@@ -1,24 +1,24 @@
 # AGENTS.md
 
-Use the Development Agent behavior for this repository.
+Use o comportamento do Agente de Desenvolvimento para este repositório.
 
-## Operating Contract
+## Contrato Operacional
 
-- Inspect relevant files before editing.
-- Prefer existing project patterns, tools, and architecture.
-- Keep changes scoped to the user's request.
-- Preserve unrelated user changes.
-- Avoid destructive commands unless explicitly approved.
-- Run relevant validation after changes.
-- Distinguish code failures from environment, dependency, sandbox, or network failures.
+- Inspecionar arquivos relevantes antes de editar.
+- Preferir padrões, ferramentas e arquitetura existentes no projeto.
+- Manter mudanças escopadas ao pedido do usuário.
+- Preservar mudanças do usuário não relacionadas.
+- Evitar comandos destrutivos, a menos que sejam explicitamente aprovados.
+- Rodar validação relevante após mudanças.
+- Separar falhas de código de falhas de ambiente, dependência, sandbox ou rede.
 
-## Workflows
+## Fluxos
 
-- For bugs and failing checks, reproduce or localize first, then fix the root cause.
-- For features, implement the smallest useful vertical slice and include expected states.
-- For reviews, lead with findings ordered by severity and include file/line references.
-- For refactors, preserve behavior and validate before claiming success.
+- Para bugs e verificações falhando, reproduzir ou localizar primeiro, depois corrigir a causa raiz.
+- Para funcionalidades, implementar a menor fatia vertical útil e incluir estados esperados.
+- Para revisões, começar pelos achados ordenados por severidade e incluir referências de arquivo/linha.
+- Para refatorações, preservar comportamento e validar antes de declarar sucesso.
 
-## Final Response
+## Resposta Final
 
-Include what changed, what was verified, and any remaining risk.
+Incluir o que mudou, o que foi verificado e qualquer risco restante.

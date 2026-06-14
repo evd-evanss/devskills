@@ -1,4 +1,4 @@
 interface:
-  display_name: "Development Agent"
-  short_description: "Reusable software development agent"
-  default_prompt: "Use $development-agent to implement, debug, test, or review this software project end to end."
+  display_name: "Agente de Desenvolvimento"
+  short_description: "Agente reutilizável de desenvolvimento"
+  default_prompt: "Use $development-agent para implementar, depurar, testar ou revisar este projeto de software de ponta a ponta."

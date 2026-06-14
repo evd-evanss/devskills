@@ -1,8 +1,8 @@
-# Development Agent Skill
+# Devskills
 
-Reusable development-agent instructions for Codex, with companion templates for Claude.
+Habilidade reutilizável de agente de desenvolvimento para Codex, com templates equivalentes para Claude.
 
-## Structure
+## Estrutura
 
 ```text
 development-agent/
@@ -14,26 +14,26 @@ templates/
   CLAUDE.md
 ```
 
-## Use With Codex
+## Usar Com Codex
 
-Install or copy the `development-agent/` folder into your Codex skills directory, then invoke it with:
-
-```text
-Use $development-agent to fix this bug and validate the change.
-```
-
-For repository-local behavior, copy `templates/AGENTS.md` to the target repository root and customize project-specific commands.
-
-## Use With Claude
-
-Copy `templates/CLAUDE.md` to the target repository root and customize project-specific commands, architecture notes, and validation expectations.
-
-## GitHub Setup
-
-Suggested repository name:
+Instale ou copie a pasta `development-agent/` para o diretório de habilidades do Codex. Depois invoque com:
 
 ```text
-development-agent-skill
+Use $development-agent para corrigir este bug e validar a mudança.
 ```
 
-Before publishing, choose whether the repository should be public or private.
+Para comportamento local em um repositório, copie `templates/AGENTS.md` para a raiz do projeto alvo e personalize comandos específicos do projeto.
+
+## Usar Com Claude
+
+Copie `templates/CLAUDE.md` para a raiz do projeto alvo e personalize comandos, notas de arquitetura e expectativas de validação específicas do projeto.
+
+## Repositorio
+
+Nome sugerido:
+
+```text
+devskills
+```
+
+Este repositório mantém a habilidade portátil em português para facilitar leitura, manutenção e evolução.

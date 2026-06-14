@@ -1,23 +1,23 @@
-# Repository Onboarding
+# Onboarding De Repositório
 
-Use this when starting in an unfamiliar repository or when the user request depends on project conventions.
+Use isto ao iniciar em um repositório desconhecido ou quando o pedido do usuário depender das convenções do projeto.
 
-## Fast Orientation
+## Orientacao Rapida
 
-1. List top-level files and directories.
-2. Read package/build manifests and README-like setup files.
-3. Search for existing implementations similar to the request.
-4. Identify test, lint, format, build, and dev commands.
-5. Check whether the worktree is dirty before edits when version control is present.
+1. Listar arquivos e diretorios de topo.
+2. Ler manifests de pacote/build e arquivos de setup parecidos com README.
+3. Buscar implementações existentes similares ao pedido.
+4. Identificar comandos de teste, lint, formatação, build e dev.
+5. Checar se a worktree está suja antes de editar quando houver controle de versão.
 
-## Signals To Capture
+## Sinais Para Capturar
 
-- Language, framework, package manager, and build tool.
-- App boundaries and ownership: frontend, backend, mobile, packages, modules.
-- Test stack and naming conventions.
-- Where shared utilities, UI components, services, and types live.
-- Existing style for errors, logging, configuration, and data access.
+- Linguagem, framework, gerenciador de pacotes e ferramenta de build.
+- Fronteiras da app e responsabilidades: frontend, backend, mobile, packages, módulos.
+- Stack de testes e convenções de nomes.
+- Onde vivem utilitários compartilhados, componentes de UI, serviços e tipos.
+- Estilo existente para erros, logs, configuração e acesso a dados.
 
-## Stop Conditions
+## Quando Parar E Perguntar
 
-Ask the user only when a decision cannot be inferred and a wrong assumption would be costly, such as destructive data changes, public API breaks, paid services, credentials, or publishing.
+Pergunte ao usuário apenas quando uma decisão não puder ser inferida e uma suposição errada seria custosa, como mudanças destrutivas de dados, quebras de API pública, serviços pagos, credenciais ou publicação.

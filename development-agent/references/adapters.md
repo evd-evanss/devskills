@@ -1,52 +1,52 @@
-# Adapters For Codex And Claude
+# Adaptadores Para Codex E Claude
 
-Use this when installing or mirroring the Development Agent behavior in a project or another tool.
+Use isto ao instalar ou espelhar o comportamento do Agente de Desenvolvimento em um projeto ou outra ferramenta.
 
-## Codex Project Adapter
+## Adaptador De Projeto Para Codex
 
-Create an `AGENTS.md` at the repository root when the project should always use this behavior.
+Crie um `AGENTS.md` na raiz do repositório quando o projeto deve sempre usar este comportamento.
 
-Recommended contents:
+Conteúdo recomendado:
 
 ```md
 # AGENTS.md
 
-Use the Development Agent behavior from this repository's skill or shared instructions.
+Use o comportamento do Agente de Desenvolvimento vindo da habilidade ou das instruções compartilhadas deste repositório.
 
-## Development Defaults
+## Padrões De Desenvolvimento
 
-- Inspect relevant files before editing.
-- Prefer existing patterns and project tooling.
-- Keep changes scoped to the request.
-- Preserve unrelated user changes.
-- Run relevant validation after changes.
-- Summarize what changed, what was verified, and remaining risk.
+- Inspecionar arquivos relevantes antes de editar.
+- Preferir padrões existentes e tooling do projeto.
+- Manter mudanças escopadas ao pedido.
+- Preservar mudanças do usuário não relacionadas.
+- Rodar validação relevante após mudanças.
+- Resumir o que mudou, o que foi verificado e risco restante.
 ```
 
-## Claude Project Adapter
+## Adaptador De Projeto Para Claude
 
-Create a `CLAUDE.md` at the repository root with the same operating contract in plain Markdown. Claude does not need Codex skill frontmatter; keep the instructions direct and repository-specific.
+Crie um `CLAUDE.md` na raiz do repositório com o mesmo contrato operacional em Markdown simples. Claude não precisa de frontmatter de habilidade do Codex; mantenha as instruções diretas e específicas ao repositório.
 
-Recommended contents:
+Conteudo recomendado:
 
 ```md
 # CLAUDE.md
 
-You are a senior software development agent for this repository.
+Você é um agente sênior de desenvolvimento para este repositório.
 
-## Operating Contract
+## Contrato Operacional
 
-- Read the existing code before proposing or making changes.
-- Prefer the repository's current patterns.
-- Make small, focused changes.
-- Do not rewrite unrelated code.
-- Preserve user work.
-- Run relevant tests or explain why they could not be run.
-- Report changes and validation clearly.
+- Leia o código existente antes de propor ou fazer mudanças.
+- Prefira os padrões atuais do repositório.
+- Faça mudanças pequenas e focadas.
+- Não reescreva código não relacionado.
+- Preserve o trabalho do usuário.
+- Rode testes relevantes ou explique por que eles não puderam ser executados.
+- Relate mudanças e validação com clareza.
 ```
 
-## Reuse Strategy
+## Estratégia De Reuso
 
-- Keep universal behavior in `development-agent/SKILL.md` and `development-agent/references/`.
-- Keep tool-specific startup files in `templates/`.
-- When a project needs stronger rules, add a local section to `AGENTS.md` or `CLAUDE.md` instead of changing the portable skill.
+- Mantenha o comportamento universal em `development-agent/SKILL.md` e `development-agent/references/`.
+- Mantenha arquivos de inicialização específicos por ferramenta em `templates/`.
+- Quando um projeto precisar de regras mais fortes, adicione uma seção local ao `AGENTS.md` ou `CLAUDE.md` em vez de alterar a habilidade portátil.

@@ -9,7 +9,7 @@ Esta skill foi generalizada a partir de um fluxo mobile acoplado a uma empresa e
 - GitHub deixou de ser obrigatório; PR/MR depende do provedor do repositório.
 - Branch `develop` deixou de ser assumida; a branch base deve ser detectada.
 - Branch apenas com ticket deixou de ser obrigatória; o padrão local vence.
-- Arco e componentes internos foram removidos; o design system local vence.
+- Design systems e componentes internos específicos foram removidos; o design system local vence.
 - KMP, Compose, Koin, Gradle, ktlint, detekt e checkFeature viraram possibilidades, não regras.
 - 100% de cobertura deixou de ser exigência global; vale a política do projeto.
 - Movimentação automática de card virou conveniência opcional, não bloqueante.

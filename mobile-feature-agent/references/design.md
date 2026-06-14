@@ -22,7 +22,7 @@ Use esta referência quando a tarefa tiver UI ou interação visual.
 
 ## Design System
 
-Não assumir Arco, Material, UIKit, SwiftUI, Chakra, Tailwind ou outro sistema.
+Não assumir nenhum design system, framework visual ou biblioteca de componentes antes de detectar o que o projeto usa.
 
 Detectar:
 

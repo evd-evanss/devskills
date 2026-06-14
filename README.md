@@ -26,7 +26,7 @@ Agente geral de desenvolvimento para implementar, depurar, testar, refatorar e r
 
 ### `mobile-feature-agent`
 
-Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Ele não assume Jira, Figma, GitHub, branch `develop`, Arco, Koin, Compose ou qualquer padrão de empresa; detecta e segue as ferramentas e convenções do projeto atual.
+Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Ele não assume Jira, Figma, GitHub, branch `develop`, design system, framework de UI, injeção de dependência ou qualquer padrão de empresa; detecta e segue as ferramentas e convenções do projeto atual.
 
 ## Usar Com Codex
 

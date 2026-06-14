@@ -55,7 +55,7 @@ Leia apenas o arquivo necessário:
 - Não assuma GitHub como único provedor de PR.
 - Não assuma `develop` como branch base.
 - Não assuma branch com apenas o ticket.
-- Não assuma Gradle, KMP, Compose, Koin, Arco ou qualquer design system.
+- Não assuma Gradle, KMP, Compose, Koin ou qualquer design system.
 - Não exija 100% de cobertura por padrão; siga a política do projeto e aumente cobertura onde houver risco.
 - Não crie UI quando o escopo for explicitamente sem UI.
 - Não altere status de ticket quando a automação não estiver clara ou puder causar ruído.

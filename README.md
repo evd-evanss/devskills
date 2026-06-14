@@ -1,6 +1,6 @@
 # Devskills
 
-Habilidade reutilizável de agente de desenvolvimento para Codex, com templates equivalentes para Claude.
+Habilidades reutilizáveis para agentes de desenvolvimento no Codex, com templates equivalentes para Claude.
 
 ## Estrutura
 
@@ -9,17 +9,32 @@ development-agent/
   SKILL.md
   agents/openai.yaml
   references/
+mobile-dev-workflow/
+  SKILL.md
+  agents/openai.yaml
+  references/
 templates/
   AGENTS.md
   CLAUDE.md
 ```
 
+## Skills
+
+### `development-agent`
+
+Agente geral de desenvolvimento para implementar, depurar, testar, refatorar e revisar projetos de software.
+
+### `mobile-dev-workflow`
+
+Fluxo genérico de desenvolvimento mobile para Android, iOS, KMP, React Native, Flutter ou stacks híbridas. Ele não assume Jira, Figma, GitHub, branch `develop`, Arco, Koin, Compose ou qualquer padrão de empresa; detecta e segue as ferramentas e convenções do projeto atual.
+
 ## Usar Com Codex
 
-Instale ou copie a pasta `development-agent/` para o diretório de habilidades do Codex. Depois invoque com:
+Instale ou copie a pasta da skill desejada para o diretório de habilidades do Codex. Depois invoque com:
 
 ```text
 Use $development-agent para corrigir este bug e validar a mudança.
+Use $mobile-dev-workflow para implementar este card mobile seguindo as ferramentas do projeto.
 ```
 
 Para comportamento local em um repositório, copie `templates/AGENTS.md` para a raiz do projeto alvo e personalize comandos específicos do projeto.
